@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>nuxeo.document.mapper</groupId>
+    <artifactId>nuxeo-document-mapper</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>nuxeo-document-mapper-core</artifactId>
+  <name>Nuxeo document mapper core</name>
+  <description>Document Mapper for Scan Importer</description>
+
+  <dependencies>
+  	 <dependency>
+      <groupId>org.nuxeo.ecm.platform</groupId>
+ 	  <artifactId>nuxeo-importer-scan</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+    </dependency>
+  </dependencies>
+
+
+</project>
